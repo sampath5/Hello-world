@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'javac Helloworld.java'
-                sh 'java Helloworld'
+                sh 'javac HelloWorld.java'
+                sh 'java HelloWorld'
             }
         }
     }
